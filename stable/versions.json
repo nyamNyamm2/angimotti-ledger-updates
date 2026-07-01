@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "current": "0.1.11",
+  "previousStable": "0.1.10",
+  "versions": [
+    {
+      "version": "0.1.11",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-01",
+      "notes": [
+        "앱 전체에 부드러운 애니메이션 추가",
+        "이전 안정 버전 복구 기능 추가"
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.1.11.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.1.11.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
+    {
+      "version": "0.1.10",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-01",
+      "notes": [
+        "연간 전망과 금액 입력 개선",
+        "이전 안정 버전"
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.1.10.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.1.10.exe.blockmap",
+      "latestPath": "latest-0.1.10.yml",
+      "isRollbackTarget": true
+    }
+  ]
+}
