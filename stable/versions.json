@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "current": "0.1.12",
-  "previousStable": "0.1.11",
-  "lts": "0.1.11",
+  "current": "0.1.13",
+  "previousStable": "0.1.12",
+  "lts": "0.1.12",
   "versions": [
     {
-      "version": "0.1.12",
+      "version": "0.1.13",
       "status": "stable",
       "channel": "stable",
       "releaseDate": "2026-07-03",
       "notes": [
-        "데이터 백업/복원 섹션을 업데이트 탭으로 이동",
-        "업데이트 탭 섹션 순서 개선",
-        "이전 안정 버전 복구 대상 LTS 정보 추가",
-        "복구 기능 User-Agent 오류 수정",
-        "백업/복원 문구 명확화"
+        "앱 시작 후 자동 업데이트 확인 개선",
+        "업데이트 탭 진입 시 자동 확인 추가",
+        "앱 포커스 복귀 시 조건부 업데이트 확인 추가",
+        "백그라운드 업데이트 확인 주기 1시간으로 변경",
+        "중복 업데이트 확인 방지 개선"
       ],
-      "installerPath": "앙기모띠가계부-Setup-0.1.12.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.1.12.exe.blockmap",
+      "installerPath": "앙기모띠가계부-Setup-0.1.13.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.1.13.exe.blockmap",
       "latestPath": "latest.yml",
       "isRollbackTarget": false
     },
     {
-      "version": "0.1.11",
+      "version": "0.1.12",
       "status": "lts",
       "channel": "stable",
-      "releaseDate": "2026-07-01",
+      "releaseDate": "2026-07-03",
       "notes": [
-        "부드러운 애니메이션과 이전 안정 버전 복구",
+        "데이터 백업 위치와 복구 메타데이터 개선",
         "이전 안정 버전"
       ],
-      "installerPath": "앙기모띠가계부-Setup-0.1.11.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.1.11.exe.blockmap",
-      "latestPath": "latest-0.1.11.yml",
+      "installerPath": "앙기모띠가계부-Setup-0.1.12.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.1.12.exe.blockmap",
+      "latestPath": "latest-0.1.12.yml",
       "isRollbackTarget": true
     }
   ]
