@@ -1,12 +1,30 @@
 {
   "schemaVersion": 1,
-  "current": "0.1.15",
-  "previousStable": "0.1.14",
-  "lts": "0.1.14",
+  "current": "0.1.16",
+  "previousStable": "0.1.15",
+  "lts": "0.1.15",
   "versions": [
     {
-      "version": "0.1.15",
+      "version": "0.1.16",
       "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-06",
+      "notes": [
+        "수정 모달 잘림 문제 수정",
+        "월간 수입과 연간 수입 추가",
+        "수입 목록 추가",
+        "홈/고정비 진단/연간 전망/조회 화면 역할 정리",
+        "수입/유출/잔여금 기준 화면 재구성",
+        "백업/복원에 수입 데이터 포함"
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.1.16.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.1.16.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
+    {
+      "version": "0.1.15",
+      "status": "lts",
       "channel": "stable",
       "releaseDate": "2026-07-06",
       "notes": [
@@ -16,8 +34,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.1.15.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.1.15.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.1.15.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.1.14",
