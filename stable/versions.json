@@ -1,26 +1,19 @@
 {
   "schemaVersion": 1,
-  "current": "0.2.3",
+  "current": "0.2.4",
   "versions": [
     {
-      "version": "0.2.3",
+      "version": "0.2.4",
       "status": "stable",
       "channel": "stable",
       "releaseDate": "2026-07-06",
       "notes": [
-        "사이드바 메뉴 그룹화",
-        "목록 리스트/관리 드롭다운 메뉴 추가",
-        "앱 아이콘을 강아지 아이콘으로 변경",
-        "브랜드 보조 문구 제거",
-        "조회 화면을 결제수단별 유출 조회 기준으로 정리",
-        "조회 화면에서 수입/잔여금 요약 제거",
-        "홈 화면 그래프/시각화 요소 복구",
-        "고정비 진단 중복 요약 카드 제거",
-        "연간 전망을 지출 캘린더로 변경",
-        "지출 캘린더에서 12개월 수입/유출/잔여 전망 강화"
+        "대형 업데이트 축하 애니메이션이 현재 배포 버전에서 정상 실행되도록 수정",
+        "브랜드 영역 폭죽 애니메이션 10초 간격 10회 표시",
+        "같은 버전에서 1회만 실행되도록 개선"
       ],
-      "installerPath": "앙기모띠가계부-Setup-0.2.3.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.2.3.exe.blockmap",
+      "installerPath": "앙기모띠가계부-Setup-0.2.4.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.2.4.exe.blockmap",
       "latestPath": "latest.yml",
       "isRollbackTarget": false
     }
