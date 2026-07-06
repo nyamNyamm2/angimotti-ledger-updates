@@ -1,12 +1,27 @@
 {
   "schemaVersion": 1,
-  "current": "0.1.14",
-  "previousStable": "0.1.13",
-  "lts": "0.1.13",
+  "current": "0.1.15",
+  "previousStable": "0.1.14",
+  "lts": "0.1.14",
   "versions": [
     {
-      "version": "0.1.14",
+      "version": "0.1.15",
       "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-06",
+      "notes": [
+        "라이트/다크 모드 설정 추가",
+        "사이드바 하단 테마 토글 추가",
+        "테마 설정 저장 기능 추가"
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.1.15.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.1.15.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
+    {
+      "version": "0.1.14",
+      "status": "lts",
       "channel": "stable",
       "releaseDate": "2026-07-06",
       "notes": [
@@ -20,8 +35,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.1.14.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.1.14.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.1.14.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.1.13",
