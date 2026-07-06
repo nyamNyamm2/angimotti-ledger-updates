@@ -33,11 +33,11 @@ jobs:
           touch _site/.nojekyll
           cp stable/latest.yml _site/stable/latest.yml
           cp stable/versions.json _site/stable/versions.json
-          cp stable/latest-0.1.16.yml _site/stable/latest-0.1.16.yml
-          cp "stable/앙기모띠가계부-Setup-0.1.16.exe" "_site/stable/앙기모띠가계부-Setup-0.1.16.exe"
-          cp "stable/앙기모띠가계부-Setup-0.1.16.exe.blockmap" "_site/stable/앙기모띠가계부-Setup-0.1.16.exe.blockmap"
+          cp stable/latest-0.2.1.yml _site/stable/latest-0.2.1.yml
           cp "stable/앙기모띠가계부-Setup-0.2.1.exe" "_site/stable/앙기모띠가계부-Setup-0.2.1.exe"
           cp "stable/앙기모띠가계부-Setup-0.2.1.exe.blockmap" "_site/stable/앙기모띠가계부-Setup-0.2.1.exe.blockmap"
+          cp "stable/앙기모띠가계부-Setup-0.2.2.exe" "_site/stable/앙기모띠가계부-Setup-0.2.2.exe"
+          cp "stable/앙기모띠가계부-Setup-0.2.2.exe.blockmap" "_site/stable/앙기모띠가계부-Setup-0.2.2.exe.blockmap"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
