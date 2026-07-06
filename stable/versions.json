@@ -1,12 +1,32 @@
 {
   "schemaVersion": 1,
-  "current": "0.1.16",
-  "previousStable": "0.1.15",
-  "lts": "0.1.15",
+  "current": "0.2.1",
+  "previousStable": "0.1.16",
+  "lts": "0.1.16",
   "versions": [
     {
-      "version": "0.1.16",
+      "version": "0.2.1",
       "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-06",
+      "notes": [
+        "Version 0.2.1 대형 업데이트",
+        "고정 수입 추가",
+        "수입/유출/잔여금 기준 화면 재정리",
+        "수입 목록 추가",
+        "홈, 고정비 진단, 연간 전망, 조회 화면 구조 개선",
+        "수정 모달 잘림 문제 수정",
+        "백업/복원에 수입 데이터 포함",
+        "첫 대형 업데이트 기념 애니메이션 추가"
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.2.1.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.2.1.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
+    {
+      "version": "0.1.16",
+      "status": "lts",
       "channel": "stable",
       "releaseDate": "2026-07-06",
       "notes": [
@@ -19,55 +39,7 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.1.16.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.1.16.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
-    },
-    {
-      "version": "0.1.15",
-      "status": "lts",
-      "channel": "stable",
-      "releaseDate": "2026-07-06",
-      "notes": [
-        "라이트/다크 모드 설정 추가",
-        "사이드바 하단 테마 토글 추가",
-        "테마 설정 저장 기능 추가"
-      ],
-      "installerPath": "앙기모띠가계부-Setup-0.1.15.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.1.15.exe.blockmap",
-      "latestPath": "latest-0.1.15.yml",
-      "isRollbackTarget": true
-    },
-    {
-      "version": "0.1.14",
-      "status": "lts",
-      "channel": "stable",
-      "releaseDate": "2026-07-06",
-      "notes": [
-        "고정비 진단 탭 추가",
-        "이번 달과 올해 고정비 진단 리포트 추가",
-        "구독/연간결제 점검 기능 추가",
-        "고정비 절감 후보 추천 추가",
-        "자동 백업 기능 추가",
-        "최근 백업 관리와 복원 미리보기 추가",
-        "업데이트/롤백 전 자동 백업 안정화"
-      ],
-      "installerPath": "앙기모띠가계부-Setup-0.1.14.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.1.14.exe.blockmap",
-      "latestPath": "latest-0.1.14.yml",
-      "isRollbackTarget": true
-    },
-    {
-      "version": "0.1.13",
-      "status": "lts",
-      "channel": "stable",
-      "releaseDate": "2026-07-03",
-      "notes": [
-        "업데이트 확인 타이밍 개선",
-        "이전 안정 버전"
-      ],
-      "installerPath": "앙기모띠가계부-Setup-0.1.13.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.1.13.exe.blockmap",
-      "latestPath": "latest-0.1.13.yml",
+      "latestPath": "latest-0.1.16.yml",
       "isRollbackTarget": true
     }
   ]

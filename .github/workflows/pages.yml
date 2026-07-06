@@ -1,0 +1,52 @@
+name: Deploy update files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare update site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site/stable
+          touch _site/.nojekyll
+          cp stable/latest.yml _site/stable/latest.yml
+          cp stable/versions.json _site/stable/versions.json
+          cp stable/latest-0.1.16.yml _site/stable/latest-0.1.16.yml
+          cp "stable/앙기모띠가계부-Setup-0.1.16.exe" "_site/stable/앙기모띠가계부-Setup-0.1.16.exe"
+          cp "stable/앙기모띠가계부-Setup-0.1.16.exe.blockmap" "_site/stable/앙기모띠가계부-Setup-0.1.16.exe.blockmap"
+          cp "stable/앙기모띠가계부-Setup-0.2.1.exe" "_site/stable/앙기모띠가계부-Setup-0.2.1.exe"
+          cp "stable/앙기모띠가계부-Setup-0.2.1.exe.blockmap" "_site/stable/앙기모띠가계부-Setup-0.2.1.exe.blockmap"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
