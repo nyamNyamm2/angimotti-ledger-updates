@@ -1,19 +1,22 @@
 {
   "schemaVersion": 1,
-  "current": "0.2.4",
+  "current": "0.2.5",
   "versions": [
     {
-      "version": "0.2.4",
+      "version": "0.2.5",
       "status": "stable",
       "channel": "stable",
-      "releaseDate": "2026-07-06",
+      "releaseDate": "2026-07-07",
       "notes": [
-        "대형 업데이트 축하 애니메이션이 현재 배포 버전에서 정상 실행되도록 수정",
-        "브랜드 영역 폭죽 애니메이션 10초 간격 10회 표시",
-        "같은 버전에서 1회만 실행되도록 개선"
+        "홈에서 월별 예상 잔여금 그래프를 제거하고 지출 캘린더로 역할 이동",
+        "홈에 이번 달 수입 구성 그래프 추가",
+        "홈의 이번 달 유출 구성 그래프 정리",
+        "홈에 저번달/이번달/다음달 3개월 예상 흐름 그래프 추가",
+        "지출 캘린더에 월별 예상 잔여금과 잔여율/유출률 표시 추가",
+        "12개월 수입/유출/잔여 전망 정보 강화"
       ],
-      "installerPath": "앙기모띠가계부-Setup-0.2.4.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.2.4.exe.blockmap",
+      "installerPath": "앙기모띠가계부-Setup-0.2.5.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.2.5.exe.blockmap",
       "latestPath": "latest.yml",
       "isRollbackTarget": false
     }
