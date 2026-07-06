@@ -1,8 +1,6 @@
 {
   "schemaVersion": 1,
   "current": "0.2.2",
-  "previousStable": "0.2.1",
-  "lts": "0.2.1",
   "versions": [
     {
       "version": "0.2.2",
@@ -19,26 +17,6 @@
       "blockmapPath": "앙기모띠가계부-Setup-0.2.2.exe.blockmap",
       "latestPath": "latest.yml",
       "isRollbackTarget": false
-    },
-    {
-      "version": "0.2.1",
-      "status": "lts",
-      "channel": "stable",
-      "releaseDate": "2026-07-06",
-      "notes": [
-        "Version 0.2.1 대형 업데이트",
-        "고정 수입 추가",
-        "수입/유출/잔여금 기준 화면 재정리",
-        "수입 목록 추가",
-        "홈, 고정비 진단, 연간 전망, 조회 화면 구조 개선",
-        "수정 모달 잘림 문제 수정",
-        "백업/복원에 수입 데이터 포함",
-        "첫 대형 업데이트 기념 애니메이션 추가"
-      ],
-      "installerPath": "앙기모띠가계부-Setup-0.2.1.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.2.1.exe.blockmap",
-      "latestPath": "latest-0.2.1.yml",
-      "isRollbackTarget": true
     }
   ]
 }
