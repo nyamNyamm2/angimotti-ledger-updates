@@ -31,10 +31,49 @@ jobs:
           set -euo pipefail
           mkdir -p _site/stable
           touch _site/.nojekyll
-          cp stable/latest.yml _site/stable/latest.yml
-          cp stable/versions.json _site/stable/versions.json
-          cp "stable/앙기모띠가계부-Setup-0.2.6.exe" "_site/stable/앙기모띠가계부-Setup-0.2.6.exe"
-          cp "stable/앙기모띠가계부-Setup-0.2.6.exe.blockmap" "_site/stable/앙기모띠가계부-Setup-0.2.6.exe.blockmap"
+          node <<'NODE'
+          const fs = require("node:fs");
+          const path = require("node:path");
+
+          const manifest = JSON.parse(fs.readFileSync("stable/versions.json", "utf8"));
+          const files = new Set(["latest.yml", "versions.json"]);
+
+          function addVersion(version) {
+            if (!version) {
+              return;
+            }
+
+            const item = manifest.versions.find((candidate) => candidate.version === version);
+
+            if (!item) {
+              throw new Error(`Missing version metadata: ${version}`);
+            }
+
+            files.add(item.installerPath);
+            files.add(item.blockmapPath);
+            files.add(item.latestPath);
+          }
+
+          addVersion(manifest.current);
+          addVersion(manifest.previousStable);
+          addVersion(manifest.lts);
+
+          for (const file of files) {
+            if (!file) {
+              continue;
+            }
+
+            const source = path.join("stable", file);
+            const destination = path.join("_site", "stable", file);
+
+            if (!fs.existsSync(source)) {
+              throw new Error(`Missing update file: ${source}`);
+            }
+
+            fs.mkdirSync(path.dirname(destination), { recursive: true });
+            fs.copyFileSync(source, destination);
+          }
+          NODE
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
