@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "current": "0.2.5",
+  "current": "0.2.6",
   "versions": [
     {
-      "version": "0.2.5",
+      "version": "0.2.6",
       "status": "stable",
       "channel": "stable",
       "releaseDate": "2026-07-07",
       "notes": [
         "홈에서 월별 예상 잔여금 그래프를 제거하고 지출 캘린더로 역할 이동",
-        "홈에 이번 달 수입 구성 그래프 추가",
+        "홈 수입 구성 그래프를 월간/연간 구분이 아니라 수입 항목 Top 5 + 기타 기준으로 개선",
         "홈의 이번 달 유출 구성 그래프 정리",
-        "홈에 저번달/이번달/다음달 3개월 예상 흐름 그래프 추가",
-        "지출 캘린더에 월별 예상 잔여금과 잔여율/유출률 표시 추가",
+        "홈에 저번달/이번달/다음달 3개월 예상 흐름 그래프 유지",
+        "지출 캘린더에 월별 예상 잔여금과 잔여율/유출률 표시 유지",
         "12개월 수입/유출/잔여 전망 정보 강화"
       ],
-      "installerPath": "앙기모띠가계부-Setup-0.2.5.exe",
-      "blockmapPath": "앙기모띠가계부-Setup-0.2.5.exe.blockmap",
+      "installerPath": "앙기모띠가계부-Setup-0.2.6.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.2.6.exe.blockmap",
       "latestPath": "latest.yml",
       "isRollbackTarget": false
     }
