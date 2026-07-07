@@ -1,8 +1,26 @@
 {
   "schemaVersion": 1,
-  "current": "0.2.7",
-  "previousStable": "0.2.6",
+  "current": "0.2.8",
+  "previousStable": "0.2.7",
   "versions": [
+    {
+      "version": "0.2.8",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "notes": [
+        "Fixed cost diagnosis was reorganized as Lab(Beta).",
+        "A lab feature ON/OFF control panel was added.",
+        "Top 5 fixed expense item analysis was added.",
+        "Top 5 payment method outflow analysis was added.",
+        "Experimental analyses such as annual monthly reserve, small fixed costs, and next three month events were added.",
+        "Expense calendar now shows notable months at the top."
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.2.8.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.2.8.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
     {
       "version": "0.2.7",
       "status": "stable",
@@ -18,8 +36,8 @@
       ],
       "installerPath": "\uc559\uae30\ubaa8\ub760\uac00\uacc4\ubd80-Setup-0.2.7.exe",
       "blockmapPath": "\uc559\uae30\ubaa8\ub760\uac00\uacc4\ubd80-Setup-0.2.7.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.2.7.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.2.6",
