@@ -1,8 +1,25 @@
 {
   "schemaVersion": 1,
-  "current": "0.2.8",
-  "previousStable": "0.2.7",
+  "current": "0.2.9",
+  "previousStable": "0.2.8",
   "versions": [
+    {
+      "version": "0.2.9",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "notes": [
+        "The Lab control panel is now smaller and uses a darker dark-mode surface.",
+        "Unnecessary horizontal scrolling on the Lab page was removed.",
+        "Lab feature ON/OFF toggles now wrap in a compact layout.",
+        "The month selector now includes a current month shortcut.",
+        "Dark-mode colors for the Lab control panel were refined."
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.2.9.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.2.9.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
     {
       "version": "0.2.8",
       "status": "stable",
@@ -18,8 +35,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.2.8.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.2.8.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.2.8.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.2.7",
