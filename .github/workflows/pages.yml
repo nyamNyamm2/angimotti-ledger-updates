@@ -36,7 +36,7 @@ jobs:
           const path = require("node:path");
 
           const manifest = JSON.parse(fs.readFileSync("stable/versions.json", "utf8"));
-          const files = new Set(["latest.yml", "versions.json"]);
+          const files = new Set(["latest.yml", "versions.json", "notices.json"]);
 
           function addVersion(version) {
             if (!version) {
