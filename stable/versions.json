@@ -1,8 +1,26 @@
 {
   "schemaVersion": 1,
-  "current": "0.3.4",
-  "previousStable": "0.3.3",
+  "current": "0.3.5",
+  "previousStable": "0.3.4",
   "versions": [
+    {
+      "version": "0.3.5",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-10",
+      "notes": [
+        "저축 만기·갱신 후보가 만기일 기준으로만 표시되도록 수정했습니다.",
+        "만기까지 3개월을 초과해 남은 진행 중 저축이 갱신 후보에 표시되는 문제를 수정했습니다.",
+        "갱신 처리 완료 후 후보 목록이 즉시 반영되도록 수정했습니다.",
+        "새 회차 생성 후 같은 항목이 반복 갱신 후보로 남지 않도록 보정했습니다.",
+        "실험실 랭킹의 생존 횟수 계산과 정렬 기준을 바로잡았습니다.",
+        "실험실 버전 v1.5를 적용했습니다."
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.3.5.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.3.5.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
     {
       "version": "0.3.4",
       "status": "stable",
@@ -16,8 +34,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.3.4.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.3.4.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.3.4.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.3.3",
