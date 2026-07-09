@@ -1,7 +1,19 @@
 ﻿{
     "version":  1,
-    "updatedAt":  "2026-07-09T20:49:26+09:00",
+    "updatedAt":  "2026-07-10T00:53:58+09:00",
     "notices":  [
+                    {
+                        "id":  "notice-20260710-005358-emergency-maintenance",
+                        "title":  "긴급점검 예고",
+                        "message":  "쳇지피티랑 코덱스가 개병신같이 프롬프트짜고 프로그램 만들어서 긴급 핫 픽스하니 넓은 아량으로 업데이트 기다려주시기 바랍니다.",
+                        "level":  "critical",
+                        "startsAt":  "2026-07-10T00:53:58+09:00",
+                        "endsAt":  null,
+                        "minAppVersion":  "0.3.3",
+                        "maxAppVersion":  null,
+                        "showOnce":  true,
+                        "forcePopup":  true
+                    },
                     {
                         "id":  "notice-20260709-204926-operation-check",
                         "title":  "운영 안내",
