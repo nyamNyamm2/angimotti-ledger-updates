@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
-  "current": "0.3.1",
-  "previousStable": "0.2.9",
+  "current": "0.3.2",
+  "previousStable": "0.3.1",
   "versions": [
+    {
+      "version": "0.3.2",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-09",
+      "notes": [
+        "실험실(Beta) 메뉴 위치를 업데이트 위로 이동했습니다.",
+        "실험실 버전 v1.2를 적용했습니다.",
+        "저축 만기·갱신 실험 기능을 추가했습니다.",
+        "고정비 안전선 실험 기능을 추가했습니다.",
+        "연간 준비금 플랜 실험 기능을 추가했습니다.",
+        "고정비 시나리오 실험 기능을 추가했습니다.",
+        "실험실 랭킹에 생존/수정 이력 v1.2를 반영했습니다."
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.3.2.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.3.2.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
     {
       "version": "0.3.1",
       "status": "stable",
@@ -21,8 +40,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.3.1.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.3.1.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.3.1.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.2.9",
