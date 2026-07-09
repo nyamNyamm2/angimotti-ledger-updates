@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
-  "current": "0.3.3",
-  "previousStable": "0.3.2",
+  "current": "0.3.4",
+  "previousStable": "0.3.3",
   "versions": [
+    {
+      "version": "0.3.4",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-10",
+      "notes": [
+        "저축 만기·갱신에서 처리 완료된 항목이 다시 후보로 표시되지 않도록 수정했습니다.",
+        "저축 만기·갱신 액션의 중복 실행을 방지했습니다.",
+        "공지 확인을 앱 활성화, 창 복원, 네트워크 재연결 시에도 즉시 실행하도록 개선했습니다.",
+        "실험실 버전 v1.4를 적용했습니다."
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.3.4.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.3.4.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
     {
       "version": "0.3.3",
       "status": "stable",
@@ -18,8 +34,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.3.3.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.3.3.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.3.3.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.3.2",
