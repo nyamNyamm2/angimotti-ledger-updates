@@ -1,7 +1,19 @@
 ﻿{
     "version":  1,
-    "updatedAt":  "2026-07-09T20:42:00+09:00",
+    "updatedAt":  "2026-07-09T20:49:26+09:00",
     "notices":  [
+                    {
+                        "id":  "notice-20260709-204926-operation-check",
+                        "title":  "운영 안내",
+                        "message":  "공지 기능 점검 안내입니다.\n\n현재 앱 내 공지 팝업 기능의 정상 동작을 확인하고 있습니다.\n\n앱 사용에는 영향이 없으며, 별도 조치 없이 그대로 사용하시면 됩니다.",
+                        "level":  "info",
+                        "startsAt":  "2026-07-09T20:49:26+09:00",
+                        "endsAt":  null,
+                        "minAppVersion":  "0.3.3",
+                        "maxAppVersion":  null,
+                        "showOnce":  true,
+                        "forcePopup":  true
+                    },
                     {
                         "id":  "notice-20260709-001-033-notices",
                         "title":  "0.3.3 업데이트 안내",
