@@ -1,5 +1,18 @@
-{
-  "version": 1,
-  "updatedAt": "2026-07-09T00:00:00+09:00",
-  "notices": []
+﻿{
+    "version":  1,
+    "updatedAt":  "2026-07-09T20:42:00+09:00",
+    "notices":  [
+                    {
+                        "id":  "notice-20260709-001-033-notices",
+                        "title":  "0.3.3 업데이트 안내",
+                        "message":  "0.3.3 업데이트에서 원격 공지 팝업 기능이 추가되었습니다.\n\n앞으로 중요한 안내, 알려진 버그, 업데이트 예정 사항이 있을 경우 앱에서 자동으로 공지를 확인해 팝업으로 안내합니다.\n\n공지 파일은 업데이트 배포 경로의 stable/notices.json을 기준으로 확인되며, 앱 실행 중에는 약 1분마다 새 공지를 확인합니다.",
+                        "level":  "info",
+                        "startsAt":  "2026-07-09T20:42:00+09:00",
+                        "endsAt":  null,
+                        "minAppVersion":  "0.3.3",
+                        "maxAppVersion":  null,
+                        "showOnce":  true,
+                        "forcePopup":  true
+                    }
+                ]
 }
