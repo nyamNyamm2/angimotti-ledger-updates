@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
-  "current": "0.3.5",
-  "previousStable": "0.3.4",
+  "current": "0.3.6",
+  "previousStable": "0.3.5",
   "versions": [
+    {
+      "version": "0.3.6",
+      "status": "stable",
+      "channel": "stable",
+      "releaseDate": "2026-07-10",
+      "notes": [
+        "실험실 버전 v1.6을 적용했습니다.",
+        "일부 기존 실험 기능을 퇴장 처리하고 기록은 실험실 랭킹에 보존했습니다.",
+        "미래 12개월 잔여금 전망, 고정비 인상 충격, 결제수단 전환 시뮬레이션 기능을 추가했습니다.",
+        "저축 종료 후 여유금 전망, 남은 연간 의무지출, 장기 유지 고정비 기능을 추가했습니다."
+      ],
+      "installerPath": "앙기모띠가계부-Setup-0.3.6.exe",
+      "blockmapPath": "앙기모띠가계부-Setup-0.3.6.exe.blockmap",
+      "latestPath": "latest.yml",
+      "isRollbackTarget": false
+    },
     {
       "version": "0.3.5",
       "status": "stable",
@@ -18,8 +34,8 @@
       ],
       "installerPath": "앙기모띠가계부-Setup-0.3.5.exe",
       "blockmapPath": "앙기모띠가계부-Setup-0.3.5.exe.blockmap",
-      "latestPath": "latest.yml",
-      "isRollbackTarget": false
+      "latestPath": "latest-0.3.5.yml",
+      "isRollbackTarget": true
     },
     {
       "version": "0.3.4",
