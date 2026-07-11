@@ -1,8 +1,24 @@
 {
     "schemaVersion":  1,
-    "current":  "0.4.1",
-    "previousStable":  "0.4.0",
+    "current":  "0.4.2",
+    "previousStable":  "0.4.1",
     "versions":  [
+                     {
+                         "version":  "0.4.2",
+                         "status":  "stable",
+                         "channel":  "stable",
+                         "releaseDate":  "2026-07-11",
+                         "notes":  [
+                                       "저축 만기·갱신을 본 기능으로 승급하고 명예의 전당에 추가했습니다.",
+                                       "저축 만기·갱신의 기존 실험실 이력을 유지하면서 v2.1 승급 이력을 반영했습니다.",
+                                       "홈의 이번 달 수입 구성과 유출 구성을 동일한 행의 2열로 재배치했습니다.",
+                                       "각 구성 카드에서 도넛 차트를 상단, 구성 항목 목록을 하단에 배치했습니다."
+                                   ],
+                         "installerPath":  "앙기모띠가계부-Setup-0.4.2.exe",
+                         "blockmapPath":  "앙기모띠가계부-Setup-0.4.2.exe.blockmap",
+                         "latestPath":  "latest.yml",
+                         "isRollbackTarget":  false
+                     },
                      {
                          "version":  "0.4.1",
                          "status":  "stable",
@@ -19,8 +35,8 @@
                                    ],
                          "installerPath":  "앙기모띠가계부-Setup-0.4.1.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.1.exe.blockmap",
-                         "latestPath":  "latest.yml",
-                         "isRollbackTarget":  false
+                         "latestPath":  "latest-0.4.1.yml",
+                         "isRollbackTarget":  true
                      },
                      {
                          "version":  "0.4.0",
@@ -37,7 +53,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-0.4.0.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.0.exe.blockmap",
                          "latestPath":  "latest-0.4.0.yml",
-                         "isRollbackTarget":  true
+                         "isRollbackTarget":  false
                      },
                      {
                          "version":  "0.3.6",
