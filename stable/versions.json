@@ -1,8 +1,25 @@
 {
     "schemaVersion":  1,
-    "current":  "0.4.2",
-    "previousStable":  "0.4.1",
+    "current":  "0.4.3",
+    "previousStable":  "0.4.2",
     "versions":  [
+                     {
+                         "version":  "0.4.3",
+                         "status":  "stable",
+                         "channel":  "stable",
+                         "releaseDate":  "2026-07-13",
+                         "notes":  [
+                                       "지출·수입·저축 항목에 결제일·입금일·이체일 정보를 추가했습니다.",
+                                       "기존 사용자 데이터를 보존하는 Dexie 데이터베이스 마이그레이션을 적용했습니다.",
+                                       "구버전 백업 및 엑셀 가져오기와 예정일 데이터의 호환성을 유지했습니다.",
+                                       "급여일 공백 경고, 결제일 분산, 30일 예정 타임라인을 실제 예정일 데이터 기반으로 개선했습니다.",
+                                       "일정 데이터 완성도 실험 기능을 추가하고 실험실 v2.2를 적용했습니다."
+                                   ],
+                         "installerPath":  "앙기모띠가계부-Setup-0.4.3.exe",
+                         "blockmapPath":  "앙기모띠가계부-Setup-0.4.3.exe.blockmap",
+                         "latestPath":  "latest.yml",
+                         "isRollbackTarget":  false
+                     },
                      {
                          "version":  "0.4.2",
                          "status":  "stable",
@@ -16,8 +33,8 @@
                                    ],
                          "installerPath":  "앙기모띠가계부-Setup-0.4.2.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.2.exe.blockmap",
-                         "latestPath":  "latest.yml",
-                         "isRollbackTarget":  false
+                         "latestPath":  "latest-0.4.2.yml",
+                         "isRollbackTarget":  true
                      },
                      {
                          "version":  "0.4.1",
@@ -36,7 +53,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-0.4.1.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.1.exe.blockmap",
                          "latestPath":  "latest-0.4.1.yml",
-                         "isRollbackTarget":  true
+                         "isRollbackTarget":  false
                      },
                      {
                          "version":  "0.4.0",
