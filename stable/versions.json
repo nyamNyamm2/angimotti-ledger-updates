@@ -1,8 +1,26 @@
 {
     "schemaVersion":  1,
-    "current":  "0.4.5",
-    "previousStable":  "0.4.4",
+    "current":  "0.4.6",
+    "previousStable":  "0.4.5",
     "versions":  [
+                     {
+                         "version":  "0.4.6",
+                         "status":  "stable",
+                         "channel":  "stable",
+                         "releaseDate":  "2026-07-13",
+                         "notes":  [
+                                       "목록 정보를 일정 및 실제 알림 설정 중심으로 정리했습니다.",
+                                       "항목별 알림 시간 설정을 추가했습니다.",
+                                       "지출·수입·저축 항목의 월 단위 일시중지와 재개를 지원합니다.",
+                                       "수정창과 삭제 확인창을 현재 화면 중앙에 표시하도록 개선했습니다.",
+                                       "목록 기본 정렬을 금액 높은 순으로 변경했습니다.",
+                                       "저축 카드 관리 버튼의 레이아웃 문제를 수정했습니다."
+                                   ],
+                         "installerPath":  "앙기모띠가계부-Setup-0.4.6.exe",
+                         "blockmapPath":  "앙기모띠가계부-Setup-0.4.6.exe.blockmap",
+                         "latestPath":  "latest.yml",
+                         "isRollbackTarget":  false
+                     },
                      {
                          "version":  "0.4.5",
                          "status":  "stable",
@@ -16,8 +34,8 @@
                                    ],
                          "installerPath":  "앙기모띠가계부-Setup-0.4.5.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.5.exe.blockmap",
-                         "latestPath":  "latest.yml",
-                         "isRollbackTarget":  false
+                         "latestPath":  "latest-0.4.5.yml",
+                         "isRollbackTarget":  true
                      },
                      {
                          "version":  "0.4.4",
@@ -35,7 +53,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-0.4.4.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.4.exe.blockmap",
                          "latestPath":  "latest-0.4.4.yml",
-                         "isRollbackTarget":  true
+                         "isRollbackTarget":  false
                      },
                      {
                          "version":  "0.4.3",
