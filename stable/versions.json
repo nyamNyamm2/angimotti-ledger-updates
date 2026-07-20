@@ -1,8 +1,25 @@
 {
     "schemaVersion":  1,
-    "current":  "0.4.7",
-    "previousStable":  "0.4.6",
+    "current":  "0.4.8",
+    "previousStable":  "0.4.7",
     "versions":  [
+                     {
+                         "version":  "0.4.8",
+                         "status":  "stable",
+                         "channel":  "stable",
+                         "releaseDate":  "2026-07-20",
+                         "notes":  [
+                                       "현금흐름 타임레일과 월간 러너를 현금흐름 러너로 통합했습니다.",
+                                       "월내 순흐름 그래프에 날짜·금액 축과 이벤트 탐색 기능을 추가했습니다.",
+                                       "일정 설정 관련 중복 실험을 일정 설정 현황으로 통합했습니다.",
+                                       "중복되는 월말·월초 브리지 실험을 기능 제외로 전환했습니다.",
+                                       "지출 캘린더에 리스트형과 실제 월 달력형 보기를 추가했습니다."
+                                   ],
+                         "installerPath":  "앙기모띠가계부-Setup-0.4.8.exe",
+                         "blockmapPath":  "앙기모띠가계부-Setup-0.4.8.exe.blockmap",
+                         "latestPath":  "latest.yml",
+                         "isRollbackTarget":  false
+                     },
                      {
                          "version":  "0.4.7",
                          "status":  "stable",
@@ -20,8 +37,8 @@
                                    ],
                          "installerPath":  "앙기모띠가계부-Setup-0.4.7.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.7.exe.blockmap",
-                         "latestPath":  "latest.yml",
-                         "isRollbackTarget":  false
+                         "latestPath":  "latest-0.4.7.yml",
+                         "isRollbackTarget":  true
                      },
                      {
                          "version":  "0.4.6",
@@ -39,7 +56,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-0.4.6.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-0.4.6.exe.blockmap",
                          "latestPath":  "latest-0.4.6.yml",
-                         "isRollbackTarget":  true
+                         "isRollbackTarget":  false
                      },
                      {
                          "version":  "0.4.5",
