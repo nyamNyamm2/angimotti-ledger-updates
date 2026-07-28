@@ -1,8 +1,8 @@
-version: 1.0.2
+version: 1.0.3
 files:
-  - url: 앙기모띠가계부-Setup-1.0.2.exe
-    sha512: MD36kFZ2nt83iv+hMNrC2vm9sAyh8wDivIQOuim9Gu6MBo+WpVIidP3Ha2rEXkBgPEwDCJlvm3ugGhMmiQhFtw==
-    size: 87924186
-path: 앙기모띠가계부-Setup-1.0.2.exe
-sha512: MD36kFZ2nt83iv+hMNrC2vm9sAyh8wDivIQOuim9Gu6MBo+WpVIidP3Ha2rEXkBgPEwDCJlvm3ugGhMmiQhFtw==
-releaseDate: '2026-07-21T07:53:17.370Z'
+  - url: 앙기모띠가계부-Setup-1.0.3.exe
+    sha512: zW73Al1aqCqwA+WuE2wD4Fvau2xu7JLJj5WGc9IIblmPo1yrj7fyqie7O1V10QSGMbW2BerrXUBeFYuIxXMkeA==
+    size: 87924813
+path: 앙기모띠가계부-Setup-1.0.3.exe
+sha512: zW73Al1aqCqwA+WuE2wD4Fvau2xu7JLJj5WGc9IIblmPo1yrj7fyqie7O1V10QSGMbW2BerrXUBeFYuIxXMkeA==
+releaseDate: '2026-07-28T00:15:33.135Z'
