@@ -1,8 +1,26 @@
 {
     "schemaVersion":  1,
-    "current":  "1.0.4",
-    "previousStable":  "1.0.3",
+    "current":  "1.0.5",
+    "previousStable":  "1.0.4",
     "versions":  [
+                     {
+                         "version":  "1.0.5",
+                         "status":  "stable",
+                         "channel":  "stable",
+                         "releaseDate":  "2026-07-29",
+                         "notes":  [
+                                       "홈 화면을 고정 수입, 고정 유출과 예상 잔여금 세 가지 구조로 복구했습니다.",
+                                       "홈의 유출 구성과 월내 순흐름을 기존 고정 유출 계산 기준으로 복구했습니다.",
+                                       "신용카드 결제일과 예상 카드대금 계산을 실험실 기능으로 격리했습니다.",
+                                       "일반 홈, 캘린더, 현금흐름과 알림에 실험용 카드 계산이 영향을 주지 않도록 수정했습니다.",
+                                       "기존 사용자 데이터와 일회성 내역, 백업 호환성을 유지했습니다.",
+                                       "실험실 v1.0.2"
+                                   ],
+                         "installerPath":  "앙기모띠가계부-Setup-1.0.5.exe",
+                         "blockmapPath":  "앙기모띠가계부-Setup-1.0.5.exe.blockmap",
+                         "latestPath":  "latest.yml",
+                         "isRollbackTarget":  false
+                     },
                      {
                          "version":  "1.0.4",
                          "status":  "stable",
@@ -18,8 +36,8 @@
                                    ],
                          "installerPath":  "앙기모띠가계부-Setup-1.0.4.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-1.0.4.exe.blockmap",
-                         "latestPath":  "latest.yml",
-                         "isRollbackTarget":  false
+                         "latestPath":  "latest-1.0.4.yml",
+                         "isRollbackTarget":  true
                      },
                      {
                          "version":  "1.0.3",
@@ -37,7 +55,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-1.0.3.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-1.0.3.exe.blockmap",
                          "latestPath":  "latest-1.0.3.yml",
-                         "isRollbackTarget":  true
+                         "isRollbackTarget":  false
                      },
                      {
                          "version":  "1.0.2",
