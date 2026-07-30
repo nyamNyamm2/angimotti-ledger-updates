@@ -1,7 +1,15 @@
 {
     "version":  1,
-    "updatedAt":  "2026-07-21T11:32:08+09:00",
+    "updatedAt":  "2026-07-30T16:39:20+09:00",
     "notices":  [
+                    {
+                        "id":  "hotfix-payment-method-settings-1.0.6",
+                        "type":  "warning",
+                        "minVersion":  "1.0.5",
+                        "maxVersion":  "1.0.6",
+                        "title":  "결제수단 설정 복구 핫픽스 배포",
+                        "content":  "앱 1.0.5에서 결제수단 유형과 신용카드 설정 항목이 표시되지 않던 문제를 수정한 1.0.6 핫픽스를 배포했습니다.\n\n업데이트 후 계좌·현금·체크카드·신용카드·기타 유형과 신용카드 결제일·청구 방식·마감일·결제 계좌 설정을 다시 사용할 수 있습니다.\n\n기존 사용자 데이터와 홈 화면 구성은 변경되지 않습니다."
+                    },
                     {
                         "id":  "official-release-1.0.1-ui-fixed",
                         "type":  "release",

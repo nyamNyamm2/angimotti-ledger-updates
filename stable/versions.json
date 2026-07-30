@@ -1,8 +1,26 @@
 {
     "schemaVersion":  1,
-    "current":  "1.0.5",
-    "previousStable":  "1.0.4",
+    "current":  "1.0.6",
+    "previousStable":  "1.0.3",
     "versions":  [
+                     {
+                         "version":  "1.0.6",
+                         "status":  "stable",
+                         "channel":  "stable",
+                         "releaseDate":  "2026-07-30",
+                         "notes":  [
+                                       "결제수단 유형 설정 UI를 복구했습니다.",
+                                       "신용카드 결제일, 청구 방식, 마감일과 결제 계좌 설정 UI를 복구했습니다.",
+                                       "홈 화면과 카드 청구 실험실의 격리를 유지했습니다.",
+                                       "기존 사용자 데이터와 일회성 내역을 보존했습니다.",
+                                       "폭죽 효과와 토글은 앱 1.0.6부터 종료됩니다.",
+                                       "실험실 v1.0.2"
+                                   ],
+                         "installerPath":  "앙기모띠가계부-Setup-1.0.6.exe",
+                         "blockmapPath":  "앙기모띠가계부-Setup-1.0.6.exe.blockmap",
+                         "latestPath":  "latest.yml",
+                         "isRollbackTarget":  false
+                     },
                      {
                          "version":  "1.0.5",
                          "status":  "stable",
@@ -18,7 +36,7 @@
                                    ],
                          "installerPath":  "앙기모띠가계부-Setup-1.0.5.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-1.0.5.exe.blockmap",
-                         "latestPath":  "latest.yml",
+                         "latestPath":  "latest-1.0.5.yml",
                          "isRollbackTarget":  false
                      },
                      {
@@ -37,7 +55,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-1.0.4.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-1.0.4.exe.blockmap",
                          "latestPath":  "latest-1.0.4.yml",
-                         "isRollbackTarget":  true
+                         "isRollbackTarget":  false
                      },
                      {
                          "version":  "1.0.3",
@@ -55,7 +73,7 @@
                          "installerPath":  "앙기모띠가계부-Setup-1.0.3.exe",
                          "blockmapPath":  "앙기모띠가계부-Setup-1.0.3.exe.blockmap",
                          "latestPath":  "latest-1.0.3.yml",
-                         "isRollbackTarget":  false
+                         "isRollbackTarget":  true
                      },
                      {
                          "version":  "1.0.2",
